@@ -1,0 +1,14 @@
+// DayOfWeek (example Monday) using Enum, and keeping the 0 as “undefined” day 
+
+syntax = "proto3"
+
+    enum DayOfWeek {
+        DAY_OF_THE_WEEK_UNSPECIFIED = 0;
+        SUNDAY = 1;
+        MONDAY = 2;
+        TUESDAY = 3;
+        WEDNESDAY = 4;
+        THURSDAY = 5;
+        FRIEDAY = 6;
+        SATURDAY = 7;
+    }
