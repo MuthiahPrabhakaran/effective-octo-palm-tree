@@ -3,6 +3,8 @@
  *  List of middle names
     Last Name */
 
+syntax = "proto3";
+
 message Person {
     string first_name = 1;
     repeated string middle_names = 2; 

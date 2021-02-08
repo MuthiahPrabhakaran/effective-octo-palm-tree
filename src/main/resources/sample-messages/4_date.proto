@@ -3,7 +3,7 @@
  *  Month (number)
  *  Day (number) */
 
-syntax = "proto3"
+syntax = "proto3";
 
 message Date {
     int32 year = 1;

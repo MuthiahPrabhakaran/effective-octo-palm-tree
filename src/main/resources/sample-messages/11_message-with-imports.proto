@@ -1,4 +1,6 @@
-syntax = "proto3"
+import "sample-messages/4_date.proto";
+
+syntax = "proto3";
 
 message Person{
     int32 age = 1;
@@ -21,4 +23,17 @@ message Person{
 
     // It is an enum defined above
     EyeColor eye_color = 8;
+
+    Date birthday = 9;
+
+    // We define the type Address within Person (full name is Person.Address)
+    message Address {
+        string address_line_1 = 1;
+        string address_line_2 = 2;
+        string zip_code = 3;
+        string city = 4;
+        string country = 5;
+    }
+
+    repeated Address addresses = 10;
 }

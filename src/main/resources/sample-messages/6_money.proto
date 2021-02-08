@@ -3,7 +3,7 @@
  *  Integral amount (number)
  *  Decimal amount (number) */
 
- syntax = "proto3"
+syntax = "proto3";
 
  message Money {
      string currency_code = 1;

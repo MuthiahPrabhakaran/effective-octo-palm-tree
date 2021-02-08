@@ -1,0 +1,8 @@
+.idea/
+target/classes/
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/
+target/maven-archiver/
+target/sample-project-1.0-SNAPSHOT.jar
+sample-maven-project.iml
+simple-message.bin
